@@ -1,0 +1,80 @@
+/* Importa a fonte Chakra Petch do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400;700&display=swap');
+
+/* Estiliza o corpo da página */
+body {
+    font-family: "Chakra Petch", sans-serif; /* Define a fonte padrão */
+    background-image: linear-gradient(to bottom right, red, yellow); /* Cor de fundo da página */
+    display: flex; /* Usa Flexbox para layout */
+    flex-direction: column; /* Alinha os itens na vertical */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    justify-content: flex-start; /* Alinha os itens no topo */
+    height: 100vh; /* Preenche a altura total da viewport */
+    margin: 0;  
+    padding: 0; 
+}
+
+/* Estiliza os títulos h1 */
+h1 {
+    font-size: 2.5rem;  /* Tamanho da fonte */
+    color: #000409;    /* Cor do texto */
+    text-align: center;  /* Texto alinhado ao centro */
+    letter-spacing: 0.4rem; /* Espaçamento entre letras */
+    margin-top: 2rem; /* Espaçamento acima do título */
+}
+
+/* Estiliza as seções da página */
+section {
+    display: flex; /* Usa Flexbox para layout */
+    flex-direction: column; /* Alinha os itens na vertical */
+    align-items: center;  /* Centraliza os itens horizontalmente */
+    margin-bottom: 6rem;  /* Espaçamento abaixo de cada seção */ 
+}
+
+/* Estiliza os inputs dentro das seções */
+section input {
+    width: 30rem;   /* Largura dos inputs */
+    border: none;   /* Remove a borda padrão */
+    padding: 1rem;  /* Espaçamento interno */
+    border-radius: 1.5rem; /* Arredondar as bordas */
+    margin-bottom: 1rem;  /* Espaçamento abaixo dos inputs */
+    color: #45474b;  /* Cor do texto */
+    font-size: 1rem;   /* Tamanho da fonte */
+    box-sizing: border-box;  /* Inclui padding e border na largura total */
+}
+
+/* Estiliza os botões dentro das seções */
+section button {
+    padding: 0.8rem 1.2rem; /* Espaçamento interno do botão */
+    border: none;   /* Remove a borda padrão */
+    border-radius: 1.5rem; /* Arredondar as bordas */
+    background-color: #efb17efc; /* Cor de fundo do botão */
+    color: #03010c; /* Cor do texto do botão */
+    font-size: 1rem; /* Tamanho da fonte */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+}
+
+/* Estiliza a caixa de resultados da pesquisa */
+.resultados-pesquisa {
+    width: 50rem; /* Largura máxima da caixa de resultados */
+    height: 30vh; /* Altura máxima da caixa de resultados */
+    overflow-y: auto; /* Adiciona rolagem vertical se necessário */
+    margin-top: 1rem; /* Espaçamento acima da caixa de resultados */
+    padding: 1rem; /* Espaçamento interno */
+    border-radius: 0.6rem; /* Borda arredondada */
+}
+
+/* Estiliza cada item de resultado */
+.item-resultado {
+    background: #17f075; /* Cor de fundo do item */
+    border-radius: 0.6rem; /* Borda arredondada */
+    padding: 1rem;  /* Espaçamento interno */
+    margin-bottom: 1rem; /* Espaçamento abaixo dos itens */
+}
+
+/* Estiliza rodapé */
+footer {
+    margin-top: auto; /* Empurra o rodapé para o final da página */
+    padding: 1rem; /* Espaçamento interno do rodapé */
+    text-align: center; /* Centraliza o texto do rodapé */
+}

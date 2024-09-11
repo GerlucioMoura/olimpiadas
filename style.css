@@ -20,7 +20,7 @@ h1 {
     color: #000409;    /* Cor do texto */
     text-align: center;  /* Texto alinhado ao centro */
     letter-spacing: 0.4rem; /* Espaçamento entre letras */
-    margin-top: 2rem; /* Espaçamento acima do título */
+    margin-top: 1rem; /* Espaçamento acima do título */
 }
 
 /* Estiliza as seções da página */
@@ -33,13 +33,14 @@ section {
 
 /* Estiliza os inputs dentro das seções */
 section input {
-    width: 30rem;   /* Largura dos inputs */
+    width: 50rem;   /* Largura dos inputs */
     border: none;   /* Remove a borda padrão */
     padding: 1rem;  /* Espaçamento interno */
     border-radius: 1.5rem; /* Arredondar as bordas */
     margin-bottom: 1rem;  /* Espaçamento abaixo dos inputs */
-    color: #45474b;  /* Cor do texto */
-    font-size: 1rem;   /* Tamanho da fonte */
+    color: #454550;  /* Cor do texto */
+   font-size: 1rem;   /* Tamanho da fonte */
+   /* font-family: sans-serif; */
     box-sizing: border-box;  /* Inclui padding e border na largura total */
 }
 
@@ -77,4 +78,41 @@ footer {
     margin-top: auto; /* Empurra o rodapé para o final da página */
     padding: 1rem; /* Espaçamento interno do rodapé */
     text-align: center; /* Centraliza o texto do rodapé */
+}
+
+a {
+    line-height: 1;       /* espaço entre uma linha do texto */
+    text-align: justify;  /* alinhamento do texto */
+}
+
+.img-rush {
+    /* float: left; */
+    float: right;   /* a imagem vai flutuar para direita se adapta ao texto */
+    width: 100px;   /* tamanho da imagem  */
+}
+
+.img-gunsroses {
+    /* float: right; */
+    float: left;     /* a imagem vai flutuar para esquerda se adapta ao texto */
+    width: 100px;    /* tamanho da imagem  */
+} 
+
+.img-BruceSpringsteen {
+    float: right;
+    width: 100px;
+}
+
+.img-Metallica {
+    float: left;
+    width: 100px;
+}
+
+.img-PinkFloyd {
+    float: right;
+    width: 100px; 
+}
+
+.img-LedZeppelin {
+    float: left;
+    width: 100px;
 }
